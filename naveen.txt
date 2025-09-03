@@ -1,3 +1,5 @@
 
 above line is removed
 git welcomes you to the party
+
+i have created an index file
