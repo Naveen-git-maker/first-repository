@@ -1,0 +1,11 @@
+steps: Demo
+on: workflow_dospatch
+jobs:
+  job1:
+    runon: unbauntu-latest
+    steps:
+      -name: wish as per the time
+       run: echo "HELLO GOOD MORNING"
+      -name: Server Operating
+      run: cat /etc/os-release
+      
