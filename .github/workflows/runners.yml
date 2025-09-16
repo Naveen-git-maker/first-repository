@@ -8,10 +8,10 @@ jobs:
         run: cat /etc/os-release
       - name: Versions type
         run: |
-          java --version
-          Node --version
-          python --version
-          Docker --version
+          java version
+          Node -v
+          python version
+          Docker version
   job2:
     runs-on: ubuntu-22.04
     steps:
