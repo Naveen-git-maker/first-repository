@@ -6,6 +6,11 @@ jobs:
     steps:
       - name: OS Info
         run: cat /etc/os-release
+          versions
+            java 'VERSIONS'
+            python 'VERSIONS'
+            Docker 'VERSIONS'
+            Node 'VERSIONS'
   job2:
     runs-on: ubuntu-22.04
     steps:
