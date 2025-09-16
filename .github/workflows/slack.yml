@@ -1,0 +1,7 @@
+name: Slack Notifications
+on: workflow_dispatch
+jobs:
+  notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack Notification
