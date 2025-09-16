@@ -1,0 +1,6 @@
+name: Greetings
+on: greet
+jobs:
+  runs-on: ubuntu-latest
+  - name: "WELCOMEHOME"
+    echo: helo world
